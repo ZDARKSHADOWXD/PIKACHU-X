@@ -1,6 +1,5 @@
 # PIKACHU-X
 [![Deploy](https://telegra.ph//file/b6b82a04d3c0250a06335.jpg)](https://github.com/ZDARKSHADOWXD/PIKACHU-X.git)
-# Layla Robot
 ### Click Below Image to Deploy
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
