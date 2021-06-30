@@ -2,7 +2,7 @@ from PIKACHUX.modules.helper_funcs.extraction import extract_user
 from PIKACHUX.modules.helper_funcs.decorators import metacmd
 import requests, telegram, datetime, time
 
-@metacmd(command="spbinfo")
+@run_async(command="spbinfo")
 def lookup(update, context):
     message = update.effective_message
     args = context.args
