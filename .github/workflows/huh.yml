@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "from @LaylaRobot"
+          find: "from LaylaRobot"
 
-          replace: "from @OLIVE_xD"
+          replace: "from PIKACHUX"
 
       - name: Create Pull Request
 
