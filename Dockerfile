@@ -68,9 +68,6 @@ RUN pip3 install --upgrade pip setuptools
 RUN git clone -b shiken https://github.com/ZDARKSHADOWXD/PIKACHU-X /root/PIKACHUX
 WORKDIR /root/PIKACHUX
 
-#Copy config file to /root/LaylaRobot/LaylaRobot
-COPY ./PIKACHUX/sample_config.py ./PIKACHUX/config.py* /root/PIKACHUX/PIKACHUX/
-
 ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
