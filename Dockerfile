@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/LaylaRobot
-RUN git clone -b shiken https://github.com/ZDARKSHADOWXD/PIKACHU-X /root/PIKACHUX
+RUN git clone https://github.com/ZDARKSHADOWXD/PIKACHU-X /root/PIKACHUX
 WORKDIR /root/PIKACHUX
 
 ENV PATH="/home/bot/bin:$PATH"
